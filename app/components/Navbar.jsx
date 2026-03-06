@@ -12,9 +12,10 @@ export default function Navbar() {
         placeholder='blur'
         quality={100}
       />
-      <h1>Dojo Helpdesk</h1>
+      <h1>Quinn Helpdesk</h1>
       <Link href="/">Dashboard</Link>
       <Link href="/tickets">Tickets</Link>
+      <Link href="/members">Members</Link>
     </nav>
   )
 }

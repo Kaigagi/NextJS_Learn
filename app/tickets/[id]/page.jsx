@@ -27,7 +27,8 @@ async function getTicket(id) {
 }
 
 
-export default async function TicketDetails({ params }) {
+export default async function TicketDetails(props) {
+  const params = await props.params;
   // const id = params.id
   const ticket = await getTicket(params.id)
 
